@@ -19,8 +19,8 @@ golang 1.17 or above
 ### Installing
 
 ```
-go get github.com/jfeliu007/goplantuml/parser
-go install github.com/jfeliu007/goplantuml/cmd/goplantuml@latest
+go get github.com/alexiicon/goplantuml/parser
+go install github.com/alexiicon/goplantuml/cmd/goplantuml@latest
 ```
 
 This will install the command goplantuml in your GOPATH bin folder.
