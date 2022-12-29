@@ -4,7 +4,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	goplantuml "github.com/jfeliu007/goplantuml/parser"
+	goplantuml "github.com/alexiicon/goplantuml/parser"
 	"io"
 	"os"
 	"path/filepath"
