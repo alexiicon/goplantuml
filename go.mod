@@ -1,4 +1,4 @@
-module github.com/jfeliu007/goplantuml
+module github.com/alexiicon/goplantuml
 
 go 1.17
 
