@@ -96,7 +96,7 @@ func (st *Struct) AddField(field *ast.Field, aliases map[string]string) {
 			}
 		}
 	} else if field.Type != nil {
-		if theType[0] == "*"[0] {
+		if  len(theType) > 0 && theType[0] == "*"[0] {
 			theType = theType[1:]
 		}
 		st.AddToComposition(theType)
